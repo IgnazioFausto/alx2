@@ -3,25 +3,62 @@
   padding: 0px; }
 
 body {
-  width: auto; }
+  width: 1024px;
+  background-color: black; }
 
-.contenedor__portada {
+.contenedor {
   width: 1024px;
   height: 768px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  margin: 0px; }
 
 .portada {
   display: block;
   position: absolute;
   margin: 0px;
   padding: 0px;
-  z-index: 1; }
+  z-index: 1;
+  width: 1024px;
+  height: 680px; }
 
-.titulo {
+.titulo, .titulo2 {
+  display: block;
   position: absolute;
   background-color: transparent;
   z-index: 2;
-  margin: 20% 40%;
-  font-size: 80px;
+  margin: 10% 37%;
+  font-size: 50px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.titulo2 {
+  margin: 10% 10%;
+  color: white; }
+
+.redes__iconos, .redes__iconosI {
+  width: 85px;
+  margin: 0px 110px; }
+
+.redes__iconosI {
+  margin-bottom: 10px; }
+
+.links__redes {
+  margin: 0px 0px 20px 60px;
+  color: white; }
+
+h3 {
+  font-style: italic;
+  font-weight: 100;
+  color: white; }
+
+h4 {
+  color: white;
+  margin-left: 45px;
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.texto__sobremi {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: white; }
