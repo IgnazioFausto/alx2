@@ -1,3 +1,28 @@
-body {
-    background-color: blue;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: auto;
+}
+.contenedor__portada {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    display: inline-block;
+}
+.portada {
+    display: block;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+.titulo {
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+    margin: 20% 40%;
+    font-size: 80px;
+    color: white;
 }
