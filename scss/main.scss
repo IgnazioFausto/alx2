@@ -16,19 +16,19 @@ body{
 .portada {
     display: block;
     position: absolute;
-    margin: 0px;
+    margin: 40px 0px;
     padding: 0px;
     z-index: 1;
     width: 1024px;
-    height: 680px;
+    height: 580px;
 }
 .titulo {
-    display: block;
+    display: inline-block;
     position: absolute;
     background-color: transparent;
     z-index: 2;
     margin: 10% 37%;
-    font-size: 50px;
+    font-size: 80px;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -36,6 +36,11 @@ body{
     @extend .titulo;
     margin: 10% 10%;
     color: white;
+}
+.subtitulo {
+    @extend .titulo;
+    font-size: 25px;
+    margin: 15% 40%;
 }
 .redes__iconos {
     width: 85px;
