@@ -2,12 +2,31 @@
   margin: 0px;
   padding: 0px; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   width: 1024px;
   background-color: white; }
 
-.row__contacto {
-  margin-left: 20px; }
+nav {
+  width: 1024px;
+  display: block;
+  position: absolute;
+  margin: 0px 400px;
+  z-index: 2; }
+
+nav ul li a {
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  padding: 5px;
+  z-index: 2;
+  text-decoration: none; }
+
+nav ul li a:hover {
+  cursor: pointer;
+  text-decoration: none; }
 
 .contenedor {
   background-color: black;
@@ -23,7 +42,7 @@ div#segundo.contenedor {
 .portada {
   display: block;
   position: absolute;
-  margin: 30px 0px;
+  margin: 50px 0px;
   padding: 0px;
   z-index: 1;
   width: 1024px;
