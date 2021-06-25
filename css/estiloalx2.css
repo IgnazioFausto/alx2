@@ -4,19 +4,26 @@
 
 body {
   width: 1024px;
-  background-color: black; }
+  background-color: white; }
+
+.row__contacto {
+  margin-left: 20px; }
 
 .contenedor {
+  background-color: black;
   width: auto;
   height: 768px;
   position: relative;
   margin: 0px;
   justify-content: center; }
 
+div#segundo.contenedor {
+  padding: 50px; }
+
 .portada {
   display: block;
   position: absolute;
-  margin: 40px 0px;
+  margin: 30px 0px;
   padding: 0px;
   z-index: 1;
   width: 1024px;
