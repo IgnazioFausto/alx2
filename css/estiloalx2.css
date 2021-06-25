@@ -1,48 +1,72 @@
+/* --------------------GENERALES */
 * {
   margin: 0px;
   padding: 0px; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  width: 1024px; }
 
 body {
   width: 1024px;
   background-color: white; }
 
+/* ------------------NAV */
 nav {
   width: 1024px;
+  height: 40px;
   display: block;
   position: absolute;
-  margin: 0px 400px;
-  z-index: 2; }
+  margin: 0px;
+  padding-left: 380px;
+  z-index: 2;
+  background-color: black; }
 
 nav ul li a {
   display: inline-block;
   position: relative;
-  background-color: red;
-  padding: 5px;
+  color: blanchedalmond;
+  background-color: black;
+  padding: 0px 20px;
   z-index: 2;
   text-decoration: none; }
 
+nav ul li {
+  padding: 0px 20px;
+  margin-top: 0px;
+  height: 34px;
+  list-style: none; }
+
 nav ul li a:hover {
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
+li a {
+  height: 40px; }
+
+li a p {
+  margin-top: 6px; }
+
+/* -----------------------CONTENEDORES */
 .contenedor {
   background-color: black;
-  width: auto;
   height: 768px;
   position: relative;
   margin: 0px;
   justify-content: center; }
 
+div#primero.contenedor {
+  width: 1024px; }
+
 div#segundo.contenedor {
-  padding: 50px; }
+  padding: 100px;
+  padding-top: 10px; }
 
 .portada {
   display: block;
   position: absolute;
-  margin: 50px 0px;
+  margin: 40px 0px;
   padding: 0px;
   z-index: 1;
   width: 1024px;
@@ -96,9 +120,3 @@ h4 {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white; }
-
-p {
-  color: blanchedalmond; }
-
-a {
-  scroll-behavior: smooth; }
