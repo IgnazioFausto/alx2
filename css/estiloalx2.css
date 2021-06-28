@@ -96,7 +96,8 @@ li a p:hover {
   height: 650px; }
 
 .cuadro {
-  width: 400px; }
+  width: 400px;
+  padding: 20px; }
 
 .titulo, .titulo2, h5.subtitulo {
   display: inline;
@@ -156,4 +157,4 @@ h4 {
 /* animacion de scroll */
 .animado {
   opacity: 0;
-  transition: all 1s; }
+  transition: all 0.8s; }

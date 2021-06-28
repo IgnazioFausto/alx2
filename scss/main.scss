@@ -98,6 +98,7 @@ li a p:hover {
 }
 .cuadro {
     width: 400px;
+    padding: 20px;
 }
 .titulo {
     display: inline;
@@ -161,5 +162,5 @@ h4 {
 
 .animado {
     opacity: 0;
-    transition: all 1s;
+    transition: all 0.8s;
 }
