@@ -59,28 +59,31 @@ li a p:hover {
   background-color: rgba(255, 235, 205, 0.082); }
 
 /* -----------------------CONTENEDORES */
-.contenedor {
+.contenedor, .contenedor__Artista, .contenedor__Obras, .contenedor__Contacto {
   background-color: black;
   width: 1024px;
   height: 768px;
   position: relative;
   margin: 0px; }
 
-.contenedor__SobreMi {
-  width: 1024px;
-  padding: 150px 200px; }
-
 .contenedor__Artista {
-  width: 1024px;
-  padding: 0px;
+  height: auto;
+  position: relative;
+  padding: 50px;
   margin-top: 50px; }
 
 .contenedor__Obras {
-  width: 1024px;
+  height: auto;
   padding: 100px;
   margin-top: 10px; }
 
+.contenedor__Contacto {
+  margin-top: 10px;
+  height: auto;
+  padding: 100px; }
+
 .texto__sobremi {
+  margin: 200px 0px 0px 50px;
   display: inline-block;
   width: 256px;
   font-size: 20px;
@@ -113,7 +116,7 @@ li a p:hover {
 .titulo2 {
   font-size: 50px;
   padding-top: 50px;
-  padding-left: 350px; }
+  padding-left: 300px; }
 
 h5.subtitulo {
   color: blanchedalmond;
@@ -124,16 +127,24 @@ h5.subtitulo {
   position: absolute;
   font-family: 'Staatliches', cursive; }
 
+h5.subtitulo2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  color: blanchedalmond;
+  margin-top: 130px;
+  margin-left: 44%;
+  position: relative; }
+
 img.profile {
   display: inline-block;
-  position: absolute;
+  position: relative;
   width: 250px;
   border-radius: 100%;
-  margin: 170px 0px 90px 500px; }
+  margin: 0px 10px 120px 150px; }
 
 .redes__iconos, .redes__iconosI {
   width: 85px;
-  margin: 0px 110px; }
+  margin: 0px 50px; }
 
 .redes__iconosI {
   margin-bottom: 10px; }
@@ -143,18 +154,15 @@ img.profile {
   color: white; }
 
 h3 {
+  margin: 170px 200px;
+  display: inline;
+  position: absolute;
   font-style: italic;
   font-weight: 100;
   color: blanchedalmond;
   font-family: 'Times New Roman', Times, serif; }
 
-h4 {
-  color: white;
-  margin-left: 45px;
-  font-size: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-
 /* animacion de scroll */
 .animado {
   opacity: 0;
-  transition: all 0.8s; }
+  transition: all 1s; }
