@@ -59,18 +59,25 @@ li a p:hover {
   background-color: rgba(255, 235, 205, 0.082); }
 
 /* -----------------------CONTENEDORES */
-.contenedor, .contenedor__Artista, .contenedor__Obras, .contenedor__Contacto {
+#obras {
+  width: 1024px;
+  height: auto;
+  padding: 100px;
+  margin-top: 10px; }
+
+#artista {
+  width: 1024px;
+  height: auto;
+  padding: 50px;
+  margin-top: 50px;
+  position: relative; }
+
+.contenedor, .contenedor__Obras, .contenedor__Contacto {
   background-color: black;
   width: 1024px;
   height: 768px;
   position: relative;
   margin: 0px; }
-
-.contenedor__Artista {
-  height: auto;
-  position: relative;
-  padding: 50px;
-  margin-top: 50px; }
 
 .contenedor__Obras {
   height: auto;
