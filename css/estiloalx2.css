@@ -72,22 +72,13 @@ li a p:hover {
   margin-top: 50px;
   position: relative; }
 
-.contenedor, .contenedor__Obras, .contenedor__Contacto {
-  background-color: black;
+#contacto {
   width: 1024px;
-  height: 768px;
+  height: auto;
+  padding: 50px;
+  margin-top: 0px;
   position: relative;
-  margin: 0px; }
-
-.contenedor__Obras {
-  height: auto;
-  padding: 100px;
-  margin-top: 10px; }
-
-.contenedor__Contacto {
-  margin-top: 10px;
-  height: auto;
-  padding: 100px; }
+  justify-content: right; }
 
 .texto__sobremi {
   margin: 200px 0px 0px 50px;
@@ -150,16 +141,12 @@ img.profile {
   border-radius: 100%;
   margin: 0px 10px 120px 150px; }
 
-.redes__iconos, .redes__iconosI {
+.redes__iconos {
   width: 85px;
-  margin: 0px 50px; }
-
-.redes__iconosI {
-  margin-bottom: 10px; }
-
-.links__redes {
-  margin: 0px 0px 20px 60px;
-  color: white; }
+  margin: 0px auto;
+  display: inline;
+  float: center;
+  position: relative; }
 
 h3 {
   margin: 170px 200px;
