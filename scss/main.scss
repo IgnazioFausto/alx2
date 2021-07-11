@@ -7,20 +7,20 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    width: 1024px;
+    width: 1280px;
     height: auto;
     background-color: black ;
 }
 
 /* ------------------NAV */
 nav {
-    width: 1024px;
+    width: 1280px;
     height: 30px;
-    display: block;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
     position:fixed;
-    margin: 0px;
-    padding-left: 350px;
-    z-index: 3;
+    z-index: 5;
     background-color: hsla(0, 0%, 0%, 0.226);
 }
 nav ul li a{
@@ -34,6 +34,8 @@ nav ul li a{
     font-family:'Staatliches', cursive;
 }
 nav ul {
+    display: inline-block;
+    list-style-type: none;
     position: fixed;
 }
 nav ul li {
@@ -41,7 +43,6 @@ nav ul li {
     margin-top: 0px;
     height: 34px;
     list-style: none;
-    position: fixed;
 }
 nav ul li a:hover {
     cursor: pointer;
@@ -60,72 +61,76 @@ li a p:hover {
     background-color: rgba(255, 235, 205, 0.082);
 }
 /* -----------------------CONTENEDORES */
+#zero {
+    position: relative;
+    width: 1280px;
+}
 #obras {
-    width: 1024px;
+    width: 1280px;
     height: auto;
-    padding: 100px;
+    padding: 50px 0px;
     margin-top: 10px;
 }
 #artista {
-    width: 1024px;
+    width: 1280px;
     height: auto;
-    padding: 50px;
+    padding: 50px 0px;
     margin-top: 50px;
     position: relative;
+    text-align: center;
 }
 #contacto { 
-    width: 1024px;
-    height: auto;
-    padding: 50px;
+    width: 1280px;
+    height: 550px;
+    padding: 50px 0px;
     margin-top: 0px;
     position:relative;
-    justify-content: right;   
+    text-align: center;
+    z-index: 2;  
 }
-.texto__sobremi {
-    margin: 200px 0px 0px 50px ;
+p.texto__sobremi {
+    margin: 0;
     display: inline-block;
-    width: 256px;
+    width: 200px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     color: white;
+    vertical-align: middle;
 }
-.portada {
+div img.portada {
     display: block;
     position: relative;
     margin:0px 0px;
-    z-index: 1;
-    width: 1024px;
+    z-index: 0;
+    width: 1280px;
     height: 650px;
 }
-.cuadro {
-    width: 400px;
-    padding: 20px;
+img.cuadro {
+    width: 450px;
+    padding: 10px;
 }
-.titulo {
+h1.titulo {
     display: inline;
-    position: absolute;
+    position:absolute;
     z-index: 2;
-    margin: 0px;
+    margin: 0px auto;
     font-size: 100px;
-    padding-left: 300px;
-    padding-top: 200px;
     color: white;
     font-family: 'Dancing Script', cursive;
+    font-weight: 100
 }
-.titulo2 {
+h2.titulo2 {
     @extend .titulo;
+    display: inline-block;
     font-size: 50px;
     padding-top:50px;
-    padding-left: 300px;  
+    /* padding-left: 300px; */  
 }
 h5.subtitulo {
     @extend .titulo;
     color: blanchedalmond;
     font-size: 25px;
-    margin: 31% 41%;
-    padding-left: 4px;
-    padding-top: 0px;
     position: absolute;
     font-family:'Staatliches', cursive;
 }
@@ -133,36 +138,51 @@ h5.subtitulo2 {
     font-family: 'Staatliches', cursive;
     font-size: 30px;
     color: hsl(36, 100%, 90%);
-    margin-top: 130px;
-    margin-left: 44%;
     position: relative;
+    margin: 20px auto;
 }
 img.profile {
     display: inline-block;
     position: relative;
-    width: 250px;
+    width: 280px;
     border-radius: 100%;
-    margin: 0px 10px 120px 150px;
+    margin: 150px 10px 120px 0px;
 }
 .redes__iconos {
-    width: 85px;
+    width: 100px;
     margin: 0px auto;
     display: inline;
-    float:center;
-    position:relative;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.redes__iconos:hover {
+    transform: scale(1.1);
 }
 h3 {
-    margin: 170px 200px;
+    width: auto;
+    margin: 0px;
     display: inline;
-    position: absolute;
+    position: relative;
     font-style: italic;
     font-weight: 100;
     color: blanchedalmond;
     font-family: 'Times New Roman', Times, serif;
 }
+/* FOOTER */
+footer div p {
+    color: rgba(255, 235, 205, 0.555);
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+footer div p:hover {
+    color: blanchedalmond;
+}
 /* animacion de scroll */
 
 .animado {
     opacity: 0;
-    transition: all 0.8s;
+    transition: all 1s;
 }
