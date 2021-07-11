@@ -26,8 +26,7 @@ nav ul li a {
   display: inline-block;
   position: relative;
   color: blanchedalmond;
-  background-color: transparent;
-  padding: 0px 25px;
+  padding: 0px 55px;
   z-index: 3;
   text-decoration: none;
   font-family: 'Staatliches', cursive; }
@@ -35,7 +34,7 @@ nav ul li a {
 nav ul {
   display: inline-block;
   list-style-type: none;
-  position: fixed; }
+  position: relative; }
 
 nav ul li {
   padding: 0px 20px;
@@ -67,46 +66,53 @@ li a p:hover {
 #obras {
   width: 1280px;
   height: auto;
-  padding: 50px 0px;
-  margin-top: 10px; }
+  text-align: center;
+  margin-top: 450px; }
 
 #artista {
   width: 1280px;
   height: auto;
   padding: 50px 0px;
-  margin-top: 50px;
-  position: relative;
-  text-align: center; }
+  padding-top: 150px;
+  position: relative; }
 
 #contacto {
   width: 1280px;
-  height: 550px;
-  padding: 50px 0px;
-  margin-top: 0px;
+  height: auto;
+  padding: 150px auto;
+  margin: 150px auto;
   position: relative;
   text-align: center;
   z-index: 2; }
 
-p.texto__sobremi {
-  margin: 0;
-  display: inline-block;
-  width: 200px;
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: right;
-  color: white;
-  vertical-align: middle; }
-
 div img.portada {
   display: block;
   position: relative;
-  margin: 0px 0px;
+  margin: 0px;
   z-index: 0;
   width: 1280px;
-  height: 650px; }
+  height: 768px; }
+
+p.texto__sobremi {
+  margin-top: 50px;
+  display: inline-block;
+  position: absolute;
+  width: 420px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  color: white;
+  left: 45%; }
+
+.colorBeige {
+  color: rgba(255, 235, 205, 0.555);
+  transition-duration: 0.5s; }
+
+.colorBeige:hover {
+  color: blanchedalmond; }
 
 img.cuadro {
-  width: 450px;
+  width: 500px;
   padding: 10px; }
 
 h1.titulo {
@@ -118,12 +124,6 @@ h1.titulo {
   color: white;
   font-family: 'Dancing Script', cursive;
   font-weight: 100; }
-
-h2.titulo2 {
-  display: inline-block;
-  font-size: 50px;
-  padding-top: 50px;
-  /* padding-left: 300px; */ }
 
 h5.subtitulo {
   color: blanchedalmond;
@@ -140,15 +140,15 @@ h5.subtitulo2 {
 
 img.profile {
   display: inline-block;
-  position: relative;
-  width: 280px;
+  position: absolute;
+  width: 340px;
   border-radius: 100%;
-  margin: 150px 10px 120px 0px; }
+  left: 20%; }
 
 .redes__iconos {
-  width: 100px;
+  width: 200px;
   margin: 0px auto;
-  display: inline;
+  display: block;
   cursor: pointer;
   transition-duration: 0.5s; }
 
@@ -172,7 +172,8 @@ footer div p {
   font-weight: 100;
   font-family: 'Staatliches', cursive;
   transition-duration: 0.5s;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 footer div p:hover {
   color: blanchedalmond; }
