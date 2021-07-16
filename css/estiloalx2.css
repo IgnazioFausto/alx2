@@ -14,7 +14,7 @@ body {
 /* ------------------NAV */
 nav {
   width: 1280px;
-  height: 30px;
+  height: 40px;
   display: inline-block;
   text-align: center;
   list-style-type: none;
@@ -39,7 +39,7 @@ nav ul {
 nav ul li {
   padding: 0px 20px;
   margin-top: 0px;
-  height: 34px;
+  height: 44px;
   list-style: none; }
 
 nav ul li a:hover {
@@ -48,10 +48,10 @@ nav ul li a:hover {
   color: white; }
 
 li a {
-  height: 40px; }
+  height: 50px; }
 
 li a p {
-  margin-top: 4px;
+  margin-top: 11px;
   transition-duration: 0.7s; }
 
 li a p:hover {
@@ -80,7 +80,7 @@ li a p:hover {
   width: 1280px;
   height: 768px;
   padding: 150px auto;
-  margin: 150px auto;
+  margin-top: 200px;
   position: relative;
   text-align: center;
   z-index: 2; }
@@ -116,11 +116,12 @@ img.cuadro {
   padding: 10px; }
 
 h1.titulo {
-  display: inline;
+  display: inline-block;
   position: absolute;
   z-index: 2;
-  margin: 0px auto;
-  font-size: 100px;
+  left: 25%;
+  top: 35%;
+  font-size: 150px;
   color: white;
   font-family: 'Dancing Script', cursive;
   font-weight: 100; }
@@ -129,7 +130,10 @@ h5.subtitulo {
   color: blanchedalmond;
   font-size: 25px;
   position: absolute;
-  font-family: 'Staatliches', cursive; }
+  font-family: 'Staatliches', cursive;
+  z-index: 1;
+  left: 43.5%;
+  top: 58%; }
 
 h5.subtitulo2 {
   font-family: 'Staatliches', cursive;
